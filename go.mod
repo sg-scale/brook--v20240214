@@ -1,6 +1,6 @@
 module github.com/txthinking/brook
 
-go 1.21
+go 1.26.0
 
 require (
 	github.com/gorilla/mux v1.8.1
@@ -20,7 +20,7 @@ require (
 	github.com/urfave/negroni v1.0.0
 	golang.org/x/crypto v0.15.0
 	golang.org/x/net v0.18.0
-	golang.org/x/sys v0.14.0
+	golang.org/x/sys v0.50.0
 )
 
 require (
