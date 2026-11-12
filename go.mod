@@ -1,6 +1,6 @@
 module github.com/txthinking/brook
 
-go 1.21
+go 1.26.0
 
 require (
 	github.com/gorilla/mux v1.8.1
@@ -18,9 +18,9 @@ require (
 	github.com/txthinking/x v0.0.0-20220929041811-1b4d914e9133
 	github.com/urfave/cli/v2 v2.25.7
 	github.com/urfave/negroni v1.0.0
-	golang.org/x/crypto v0.15.0
-	golang.org/x/net v0.18.0
-	golang.org/x/sys v0.14.0
+	golang.org/x/crypto v0.58.0
+	golang.org/x/net v0.62.0
+	golang.org/x/sys v0.49.0
 )
 
 require (
@@ -46,8 +46,9 @@ require (
 	github.com/xrash/smetrics v0.0.0-20201216005158-039620a65673 // indirect
 	go.uber.org/mock v0.3.0 // indirect
 	golang.org/x/exp v0.0.0-20221205204356-47842c84f3db // indirect
-	golang.org/x/mod v0.12.0 // indirect
-	golang.org/x/text v0.14.0 // indirect
-	golang.org/x/tools v0.13.0 // indirect
+	golang.org/x/mod v0.41.0 // indirect
+	golang.org/x/sync v0.24.0 // indirect
+	golang.org/x/text v0.43.0 // indirect
+	golang.org/x/tools v0.51.0 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
 )
